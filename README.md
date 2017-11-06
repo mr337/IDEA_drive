@@ -8,15 +8,17 @@ quick prototyping of stepper drives.
 [Protocol Doc](http://www.haydonkerkpittman.com/-/media/ametekhaydonkerk/downloads/products/drives/idea_drive_communication_manual.pdf?la=en)
 
 ## What is included?
-Currently a python lib that only requires the pyserial lib. Simple import it
+Currently a python lib that only requires the pyserial lib. Simply import it
 and call what functions are needed.
 
-A C version of this lib built for ARM will be out soon.
+Also included is a minimum protocol use in C. Simply pass in buffer, and write
+that buffer to a serial or rs485 device.
+
 
 ## Is this complete?
 Nope, there are a lot of features the IDEA drives have that I didn't use and aren't in the lib. 
 
-Another items is some of the queries need to be formatted out of the response to return only
+Another item is some of the queries need format out of the response to return 
 important info. Example: query the current position and there will be a prefix and suffix wrapped
 around the position info.
 
