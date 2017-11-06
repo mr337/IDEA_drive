@@ -4,8 +4,8 @@
 This is a lib used to work with the IDEA Drives from Haydon Kerk. Great for
 quick prototyping of stepper drives.
 
-(Drive Link)[http://www.haydonkerkpittman.com/products/drives/steppermotorprogrammabledrives/acm4806e-acm4826e]
-(Protocol Doc)[http://www.haydonkerkpittman.com/-/media/ametekhaydonkerk/downloads/products/drives/idea_drive_communication_manual.pdf?la=en]
+[Drive Link](http://www.haydonkerkpittman.com/products/drives/steppermotorprogrammabledrives/acm4806e-acm4826e)
+[Protocol Doc](http://www.haydonkerkpittman.com/-/media/ametekhaydonkerk/downloads/products/drives/idea_drive_communication_manual.pdf?la=en)
 
 ## What is included?
 Currently a python lib that only requires the pyserial lib. Simple import it
